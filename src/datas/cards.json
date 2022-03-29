@@ -1,0 +1,387 @@
+[
+    {
+        "id": 1,
+        "target": "kaykay",
+        "forbidden": [
+            "binmek",
+            "çocuk",
+            "tekerlek",
+            "tahta",
+            "paten"
+        ]
+    },
+    {
+        "id": 2,
+        "target": "şölen",
+        "forbidden": [
+            "kutlama",
+            "yemek",
+            "içmek",
+            "ziyafet",
+            "eğlence"
+        ]
+    },
+    {
+        "id": 3,
+        "target": "köse",
+        "forbidden": [
+            "kıl",
+            "bıyık",
+            "sakal",
+            "tüy",
+            "tıraş"
+        ]
+    },
+    {
+        "id": 4,
+        "target": "yıl dönümü",
+        "forbidden": [
+            "kutlama",
+            "evlilik",
+            "ölüm",
+            "gün",
+            "kuruluş"
+        ]
+    },
+    {
+        "id": 5,
+        "target": "süvari",
+        "forbidden": [
+            "at",
+            "asker",
+            "binmek",
+            "savaş",
+            "piyade"
+        ]
+    },
+    {
+        "id": 6,
+        "target": "espri yapmak",
+        "forbidden": [
+            "komik",
+            "şaka",
+            "anlatmak",
+            "gülmek",
+            "kahkaha"
+        ]
+    },
+    {
+        "id": 7,
+        "target": "şaman",
+        "forbidden": [
+            "din",
+            "eski",
+            "büyü",
+            "ruh",
+            "iyileştirmek"
+        ]
+    },
+    {
+        "id": 8,
+        "target": "goran bregoviç",
+        "forbidden": [
+            "Çingeneler Zamanı",
+            "Yugoslavya",
+            "müzisyen",
+            "Emir Kusturica",
+            "Mustafa"
+        ]
+    },
+    {
+        "id": 9,
+        "target": "satır",
+        "forbidden": [
+            "bıçak",
+            "et",
+            "kesmek",
+            "baş",
+            "doğramak"
+        ]
+    },
+    {
+        "id": 10,
+        "target": "can simidi",
+        "forbidden": [
+            "deniz",
+            "yuvarlak",
+            "vapur",
+            "boğulmak",
+            "gemi"
+        ]
+    },
+    {
+        "id": 11,
+        "target": "sümen",
+        "forbidden": [
+            "ofis",
+            "masa",
+            "yazmak",
+            "saklamak",
+            "deri"
+        ]
+    },
+    {
+        "id": 12,
+        "target": "kangal",
+        "forbidden": [
+            "hayvan",
+            "köpek",
+            "Sivas",
+            "sucuk",
+            "kurt"
+        ]
+    },
+    {
+        "id": 13,
+        "target": "kaldıraç",
+        "forbidden": [
+            "yük",
+            "ağır",
+            "kuvvet",
+            "çubuk",
+            "fizik"
+        ]
+    },
+    {
+        "id": 14,
+        "target": "aztekler",
+        "forbidden": [
+            "Meksika",
+            "uygarlık",
+            "eski",
+            "İmparatorluk",
+            "İnkalar"
+        ]
+    },
+    {
+        "id": 15,
+        "target": "pestil",
+        "forbidden": [
+            "üzüm",
+            "dut",
+            "kuru",
+            "çıkmak",
+            "yorgun"
+        ]
+    },
+    {
+        "id": 16,
+        "target": "dandik",
+        "forbidden": [
+            "kötü",
+            "sahte",
+            "kalitesiz",
+            "uyduruk",
+            "taklit"
+        ]
+    },
+    {
+        "id": 17,
+        "target": "psikoloji",
+        "forbidden": [
+            "sosyoloji",
+            "psikiyatri",
+            "ruhbilim",
+            "depresyon",
+            "Freud"
+        ]
+    },
+    {
+        "id": 18,
+        "target": "püskürmek",
+        "forbidden": [
+            "yanardağ",
+            "lav",
+            "su",
+            "çıkarmak",
+            "fışkırmak"
+        ]
+    },
+    {
+        "id": 19,
+        "target": "domino",
+        "forbidden": [
+            "taş",
+            "oyun",
+            "devirmek",
+            "dikdörtgen",
+            "nokta"
+        ]
+    },
+    {
+        "id": 20,
+        "target": "adam asmaca",
+        "forbidden": [
+            "oyun",
+            "kelime",
+            "bulmak",
+            "çizmek",
+            "harf"
+        ]
+    },
+    {
+        "id": 21,
+        "target": "şakşuka",
+        "forbidden": [
+            "yemek",
+            "patlıcan",
+            "Tarık Mengüç",
+            "meze",
+            "şarkı"
+        ]
+    },
+    {
+        "id": 22,
+        "target": "hörgüç",
+        "forbidden": [
+            "deve",
+            "kambur",
+            "sırt",
+            "çöl",
+            "hayvan"
+        ]
+    },
+    {
+        "id": 23,
+        "target": "kuru sıkı",
+        "forbidden": [
+            "tabanca",
+            "silah",
+            "ateş etmek",
+            "patlatmak",
+            "gerçek"
+        ]
+    },
+    {
+        "id": 24,
+        "target": "ömür",
+        "forbidden": [
+            "yaşam",
+            "hayat",
+            "ölüm",
+            "geçmek",
+            "yaşlanmak"
+        ]
+    },
+    {
+        "id": 25,
+        "target": "magma",
+        "forbidden": [
+            "yer altı",
+            "volkan",
+            "erimek",
+            "yanardağ",
+            "lav"
+        ]
+    },
+    {
+        "id": 26,
+        "target": "çayır",
+        "forbidden": [
+            "otlamak",
+            "inek",
+            "yeşil",
+            "çimen",
+            "piknik"
+        ]
+    },
+    {
+        "id": 27,
+        "target": "kasko",
+        "forbidden": [
+            "araba",
+            "araç",
+            "sigorta",
+            "otomobil",
+            "kaza"
+        ]
+    },
+    {
+        "id": 28,
+        "target": "karamel",
+        "forbidden": [
+            "tatlı",
+            "kahve",
+            "dondurma",
+            "şeker",
+            "yakmak"
+        ]
+    },
+    {
+        "id": 29,
+        "target": "zamane",
+        "forbidden": [
+            "çocuk",
+            "bugün",
+            "genç",
+            "şimdi",
+            "yakınmak"
+        ]
+    },
+    {
+        "id": 30,
+        "target": "maksat",
+        "forbidden": [
+            "amaç",
+            "aşmak",
+            "istemek",
+            "neden",
+            "sebep"
+        ]
+    },
+    {
+        "id": 31,
+        "target": "kese kağıdı",
+        "forbidden": [
+            "meyve",
+            "torba",
+            "taşımak",
+            "poşet",
+            "kestane"
+        ]
+    },
+    {
+        "id": 32,
+        "target": "gıcırtı",
+        "forbidden": [
+            "ses",
+            "kapı",
+            "yağlamak",
+            "tahta",
+            "pas"
+        ]
+    },
+    {
+        "id": 33,
+        "target": "jant",
+        "forbidden": [
+            "araba",
+            "parça",
+            "tekerlek",
+            "lastik",
+            "çelik"
+        ]
+    },
+    {
+        "id": 34,
+        "target": "sait faik abasıyanık",
+        "forbidden": [
+            "edebiyat",
+            "yazar",
+            "hikaye",
+            "Türk",
+            "kitap"
+        ]
+    },
+    {
+        "id": 35,
+        "target": "başüstüne",
+        "forbidden": [
+            "emir vermek",
+            "komuta",
+            "istemek",
+            "yerine getirmek",
+            "selam söylemek"
+        ]
+    }
+]
