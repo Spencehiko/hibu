@@ -57,10 +57,7 @@ nav {
 
 nav a.router-link-exact-active {
     color: var(--color-bright-purple);
-}
-
-nav a.router-link-exact-active:hover {
-    background-color: transparent;
+    background-color: var(--bg-purple);
 }
 
 nav a {
@@ -70,10 +67,6 @@ nav a {
 
 nav a:first-of-type {
     border: 0;
-}
-
-.router-view {
-  transition: all 1.5s;
 }
 
 @media (min-width: 1024px) {

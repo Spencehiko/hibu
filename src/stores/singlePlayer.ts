@@ -19,6 +19,7 @@ export const useSinglePlayer = defineStore({
         maxScore: 30,
         timeLimit: 120,
     },
+    gameStarted: false,
   }),
   getters: {
   },

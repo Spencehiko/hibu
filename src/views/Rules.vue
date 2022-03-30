@@ -12,6 +12,7 @@
             <li>Kelimeyi başarılı bir şekilde anlatırsanız takımınız 1 puan kazanır ve sıradaki karta geçersiniz.</li>
             <li>Süreniz sona erince anlatmayı bırakın.</li>
             <li>Her oyun için hedef skoru, zaman limitini, pas hakkı sayısını oyun başında siz belirlersiniz.</li>
+            <li>Oyun, bir takım hedef skora ulaştığında biter.</li>
         </ol>
     </div>
 </template>
