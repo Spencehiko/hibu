@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import cards from '@/datas/cards.json';
+import alertify from 'alertifyjs';
 
 export const useSinglePlayer = defineStore({
   id: 'singlePlayer',
@@ -25,6 +26,18 @@ export const useSinglePlayer = defineStore({
   },
   actions: {
     startGame() {
+      if(this.teams.team1.name.trim() === '' || this.teams.team2.name.trim() === '' || this.rules.maxScore.toString().trim() === '' || this.rules.timeLimit.toString().trim() === '') {
+        alertify.error('Lütfen tüm alanları doldurunuz.', 2);
+        return;
+      }
+      if(this.rules.maxScore < 1) {
+        alertify.error('Skor limiti en az 1 olmalıdır.', 2);
+        return;
+      }
+      if(this.rules.timeLimit < 20) {
+        alertify.error('Süre limiti en az 20 saniye olmalıdır.', 2);
+        return;
+      }
       console.log('Game started');
       this.gameStarted = true;
     },

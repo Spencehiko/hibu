@@ -66,9 +66,6 @@ const { teams, rules } = storeToRefs(store);
     display: flex;
     place-items: center;
 }
-.wrapper {
-    margin: auto 0 auto 100px;
-}
 .row {
     display: flex;
     flex-direction: row;
@@ -76,6 +73,7 @@ const { teams, rules } = storeToRefs(store);
     padding: 0 150px;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 200px;
 }
 .row a {
     width: 100%;
