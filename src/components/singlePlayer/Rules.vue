@@ -73,7 +73,7 @@ const { teams, rules } = storeToRefs(store);
     padding: 0 150px;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .row a {
     width: 100%;

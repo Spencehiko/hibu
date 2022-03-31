@@ -42,5 +42,5 @@ export const useSinglePlayer = defineStore({
       this.gameStarted = true;
     },
   },
-  persist: true,
+  persist: false,
 })
