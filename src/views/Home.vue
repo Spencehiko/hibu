@@ -3,7 +3,7 @@
 
 <template>
     <div class="home">
-        <h1 class="title">Tabu oyununa hoş geldin!</h1>
+        <h1 class="title">Hibu oyununa hoş geldin</h1>
         <h3 class="explanation">Kuralları biliyor musun?</h3>
         <div class="buttons">
             <RouterLink to="/rules">HAYIR</RouterLink>

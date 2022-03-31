@@ -1,19 +1,32 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
+
+const menuOpen = ref(false)
 </script>
 
 <template>
     <header>
-        <div class="wrapper">
-            <nav>
-                <RouterLink to="/">Ana Sayfa</RouterLink>
-                <RouterLink to="/single-player">Tek Cihaz</RouterLink>
-                <RouterLink to="/rules">Kurallar</RouterLink>
-            </nav>
+        <h1 class="name">Hibu</h1>
+        <div class="toggle-wrapper">
+            <button class="toggle-button" v-if="!menuOpen" @click="menuOpen = true">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <button class="close-button" v-if="menuOpen" @click="menuOpen = false">
+                X
+            </button>
         </div>
     </header>
-
-    <RouterView class="router-view" />
+    <RouterView class="router-view" :class="{ 'menu-opened': menuOpen }" />
+    <div class="wrapper" v-show="menuOpen">
+        <nav>
+            <RouterLink to="/" @click="menuOpen = false">Ana Sayfa</RouterLink>
+            <RouterLink to="/single-player" @click="menuOpen = false">Tek Cihaz</RouterLink>
+            <RouterLink to="/rules" @click="menuOpen = false">Kurallar</RouterLink>
+        </nav>
+    </div>
 </template>
 
 <style>
@@ -24,77 +37,109 @@ body {
     margin: 0;
     overflow: hidden;
 }
-
 #app {
     width: 100%;
     margin: 0 auto;
     font-weight: normal;
     height: 100vh;
 }
-
-header {
-    line-height: 1.5;
-    max-height: 100vh;
-}
-
 a {
-    text-align: center;
     text-decoration: none;
-    color: var(--color-purple);
-    transition: 0.4s;
 }
-
-@media (hover: hover) {
-    a:hover {
-        background-color: var(--bg-purple);
-    }
-}
-
-nav {
-    font-size: 12px;
-    text-align: center;
-    border-right: 1px solid var(--color-purple);
-}
-
-nav a.router-link-exact-active {
-    color: var(--color-bright-purple);
+header {
+    width: 100vw;
+    height: 60px;
     background-color: var(--bg-purple);
 }
-
-nav a {
-    display: inline-block;
-    padding: 0 1rem;
+.name {
+    float: left;
+    color: var(--color-bright-purple);
+    margin: 5px 15px;
 }
-
-nav a:first-of-type {
-    border: 0;
+.wrapper {
+    background: var(--bg-dark-purple);
+    width: 100%;
+    height: calc(100% - 60px);
+    z-index: 10;
+    position: absolute;
+    top: 60px;
+    left: 0;
 }
-
-@media (min-width: 1024px) {
-    #app {
-        display: grid;
-        grid-template-columns: 1fr 5fr;
-    }
-
-    header {
-        display: flex;
-        place-items: center;
-        width: 100%;
-    }
-
-    header .wrapper {
-        display: flex;
-        place-items: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    nav {
-        text-align: left;
-        font-size: 1rem;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+.wrapper nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.wrapper nav a {
+    color: var(--color-bright-purple);
+    font-weight: 600;
+    font-size: 30px;
+    transition: all 0.4s;
+}
+.wrapper nav a:hover {
+    color: var(--color-purple);
+}
+.toggle-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.toggle-button {
+    background: transparent;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    float: right;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+.toggle-button .bar {
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-bright-purple);
+    margin: 5px;
+    transition: 0.4s;
+}
+.toggle-button:hover .bar {
+    background-color: var(--color-purple);
+}
+.close-button {
+    background: transparent;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    float: right;
+    outline: none;
+    border: none;
+    margin: 7.5px 15px;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-bright-purple);
+}
+.close-button:hover {
+    color: var(--color-purple);
+}
+.router-view {
+    padding: 20px 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    transition: all 0.4s;
+}
+.router-view.menu-opened {
+    pointer-events: none;
+    filter: blur(5px);
 }
 </style>

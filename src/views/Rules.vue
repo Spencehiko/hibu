@@ -19,13 +19,14 @@
 
 <style scoped>
 .rules{
-    margin: 50px 150px;
+    margin: 50px 20%;
     padding: 50px;
+    width: 60%;
     text-align: center;
     border-radius: 10px;
     background: var(--bg-purple);
     color: var(--color-yellow);
-    max-height: calc(100% - 100px);
+    max-height: calc(100% - 160px);
     overflow: auto;
 }
 .title{

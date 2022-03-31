@@ -14,5 +14,4 @@ const { teams, rules } = store;
 </template>
 
 <style scoped>
-
 </style>
