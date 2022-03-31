@@ -1010,5 +1010,313 @@
             "oturmak",
             "yemek"
         ]
+    },
+    {
+        "id": 93,
+        "target": "mekik çekmek",
+        "forbidden": [
+            "karın kası",
+            "egzersiz",
+            "göbek",
+            "spor",
+            "şınav çekmek"
+        ]
+    },
+    {
+        "id": 94,
+        "target": "florence nightingale",
+        "forbidden": [
+            "hemşire",
+            "hastane",
+            "kurmak",
+            "ilk",
+            "doktor"
+        ]
+    },
+    {
+        "id": 95,
+        "target": "işkembe",
+        "forbidden": [
+            "çorba",
+            "paça",
+            "kokmak",
+            "mide",
+            "sallamak"
+        ]
+    },
+    {
+        "id": 96,
+        "target": "çardak",
+        "forbidden": [
+            "yaz",
+            "gölge",
+            "bahçe",
+            "oturmak",
+            "kameriye"
+        ]
+    },
+    {
+        "id": 97,
+        "target": "eğilim",
+        "forbidden": [
+            "ilgi",
+            "yönelmek",
+            "merak",
+            "meyilli",
+            "istemek"
+        ]
+    },
+    {
+        "id": 98,
+        "target": "nişasta",
+        "forbidden": [
+            "şeker",
+            "karbonhidrat",
+            "yiyecek",
+            "patates",
+            "mısır"
+        ]
+    },
+    {
+        "id": 99,
+        "target": "rozet",
+        "forbidden": [
+            "yaka",
+            "sembol",
+            "metal",
+            "takmak",
+            "parti"
+        ]
+    },
+    {
+        "id": 100,
+        "target": "tepeden bakmak",
+        "forbidden": [
+            "küçümsemek",
+            "görmek",
+            "üstün",
+            "ukala",
+            "mütevazı"
+        ]
+    },
+    {
+        "id": 101,
+        "target": "hafriyat",
+        "forbidden": [
+            "inşaat",
+            "toprak",
+            "bina",
+            "kazmak",
+            "kamyon"
+        ]
+    },
+    {
+        "id": 102,
+        "target": "çatalhöyük",
+        "forbidden": [
+            "arkeoloji",
+            "antik",
+            "Anadolu",
+            "eski",
+            "kazı"
+        ]
+    },
+    {
+        "id": 103,
+        "target": "sendrom",
+        "forbidden": [
+            "belirti",
+            "hastalık",
+            "bunalım",
+            "pazartesi",
+            "sıkıntı"
+        ]
+    },
+    {
+        "id": 104,
+        "target": "zonklamak",
+        "forbidden": [
+            "baş ağrısı",
+            "vurmak",
+            "ağrımak",
+            "şakak",
+            "beyin"
+        ]
+    },
+    {
+        "id": 105,
+        "target": "yazlık",
+        "forbidden": [
+            "ev",
+            "oturmak",
+            "gitmek",
+            "deniz",
+            "tatil"
+        ]
+    },
+    {
+        "id": 106,
+        "target": "hacı bektaş-ı veli",
+        "forbidden": [
+            "Alevi",
+            "tasavvuf",
+            "şenlik",
+            "Mevlana",
+            "fıkra"
+        ]
+    },
+    {
+        "id": 107,
+        "target": "mahsus",
+        "forbidden": [
+            "şaka",
+            "özgü",
+            "bilerek",
+            "kasten",
+            "isteyerek"
+        ]
+    },
+    {
+        "id": 108,
+        "target": "çömlek",
+        "forbidden": [
+            "çanak",
+            "toprak",
+            "kap",
+            "tencere",
+            "pişirmek"
+        ]
+    },
+    {
+        "id": 109,
+        "target": "spa",
+        "forbidden": [
+            "masaj",
+            "sauna",
+            "otel",
+            "bakım",
+            "rahatlamak"
+        ]
+    },
+    {
+        "id": 110,
+        "target": "tasarım",
+        "forbidden": [
+            "dizayn",
+            "sanat",
+            "mobilya",
+            "ürün",
+            "yaratmak"
+        ]
+    },
+    {
+        "id": 111,
+        "target": "tornavida",
+        "forbidden": [
+            "yıldız",
+            "alet",
+            "tamir",
+            "monte etmek",
+            "döndürmek"
+        ]
+    },
+    {
+        "id": 112,
+        "target": "barınak",
+        "forbidden": [
+            "hayvan",
+            "sokak köpeği",
+            "yaşamak",
+            "kalmak",
+            "korunmak"
+        ]
+    },
+    {
+        "id": 113,
+        "target": "gazi",
+        "forbidden": [
+            "M. Kemal Atatürk",
+            "savaş",
+            "yaralanmak",
+            "şehit",
+            "ölmek"
+        ]
+    },
+    {
+        "id": 114,
+        "target": "bambi",
+        "forbidden": [
+            "yavru",
+            "geyik",
+            "hayvan",
+            "ceylan",
+            "çizgi film"
+        ]
+    },
+    {
+        "id": 115,
+        "target": "çantada keklik",
+        "forbidden": [
+            "kesim",
+            "iş",
+            "kolay",
+            "elde etmek",
+            "çocuk oyuncağı"
+        ]
+    },
+    {
+        "id": 116,
+        "target": "muhit",
+        "forbidden": [
+            "semt",
+            "yaşamak",
+            "çevre",
+            "mahalle",
+            "ev"
+        ]
+    },
+    {
+        "id": 117,
+        "target": "feng shui",
+        "forbidden": [
+            "dekorasyon",
+            "tarz",
+            "Uzak Doğu",
+            "mekan",
+            "ev"
+        ]
+    },
+    {
+        "id": 118,
+        "target": "kabza",
+        "forbidden": [
+            "silah",
+            "tabanca",
+            "tutmak",
+            "sap",
+            "kılıç"
+        ]
+    },
+    {
+        "id": 119,
+        "target": "manda",
+        "forbidden": [
+            "öküz",
+            "inek",
+            "dana",
+            "hayvan",
+            "Amerika"
+        ]
+    },
+    {
+        "id": 120,
+        "target": "tom sawyer",
+        "forbidden": [
+            "Mark Twain",
+            "roman",
+            "macera",
+            "Huckleberry Finn",
+            "çocuk"
+        ]
     }
 ]

@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="wrapper">
             <nav>
                 <RouterLink to="/">Ana Sayfa</RouterLink>
-                <RouterLink to="/single-player">Tek Oyunculu</RouterLink>
+                <RouterLink to="/single-player">Tek Cihaz</RouterLink>
                 <RouterLink to="/rules">Kurallar</RouterLink>
             </nav>
         </div>
