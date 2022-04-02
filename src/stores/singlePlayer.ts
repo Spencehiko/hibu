@@ -51,6 +51,19 @@ export const useSinglePlayer = defineStore({
       this.cards = this.cards.sort(() => Math.random() - 0.5);
       this.gameStarted = true;
     },
+    endGame() {
+      this.gameStarted = false;
+      this.roundStarted = false;
+      this.roundTeam = 0;
+      this.roundScore = 0;
+      this.usedCards = [];
+      this.teams[0].score = 0;
+      this.teams[1].score = 0;
+      this.teams[0].name = 'Takım 1';
+      this.teams[1].name = 'Takım 2';
+      this.rules.maxScore = 30;
+      this.rules.timeLimit = 60;
+    }
   },
   getters: {
     getRemainingCards(): Card[] {

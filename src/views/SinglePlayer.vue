@@ -1,11 +1,21 @@
 <script setup lang="ts">
+import { onBeforeRouteLeave } from 'vue-router'
 import { storeToRefs } from 'pinia';
 import { useSinglePlayer } from '@/stores/singlePlayer';
 import Rules from '@/components/singlePlayer/Rules.vue';
 import Game from '@/components/singlePlayer/Game.vue';
 
 const store = useSinglePlayer();
+const { endGame } = store;
 const { gameStarted } = storeToRefs(store);
+onBeforeRouteLeave((to, from, next) => {
+    if (confirm('Oyunu kapatmak istediğinize emin misiniz?')) {
+        endGame();
+        next();
+    } else {
+        next(false);
+    }
+});
 </script>
 
 <template>
