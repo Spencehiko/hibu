@@ -45,6 +45,20 @@ body {
 }
 a {
     text-decoration: none;
+    padding: 10px;
+    border: 1px solid var(--color-purple);
+    border-radius: 5px;
+    background-color: var(--bg-purple);
+    color: var(--color-bright-purple);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+    text-align: center;
+}
+a:hover {
+    background-color: var(--bg-bright-purple);
+    color: var(--color-purple);
 }
 header {
     width: 100vw;
@@ -140,6 +154,6 @@ header {
 }
 .router-view.menu-opened {
     pointer-events: none;
-    filter: blur(5px);
+    filter: blur(10px) grayscale(.5);
 }
 </style>

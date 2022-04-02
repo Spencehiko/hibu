@@ -16,4 +16,10 @@ const { gameStarted } = storeToRefs(store);
 </template>
 
 <style scoped>
+.single-player {
+    color: var(--color-bright-purple);
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background: var(--bg-dark-purple);
+}
 </style>

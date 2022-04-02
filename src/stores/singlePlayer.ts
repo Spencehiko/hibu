@@ -2,31 +2,40 @@ import { defineStore } from 'pinia'
 import cards from '@/datas/cards.json';
 import alertify from 'alertifyjs';
 
+interface Card {
+  id: number;
+  target: string;
+  forbidden: string[];
+}
+
+
 export const useSinglePlayer = defineStore({
   id: 'singlePlayer',
   state: () => ({
-    teams: {
-      team1: {
+    teams: [
+      {
         name: 'Takım 1',
         score: 0,
       },
-      team2: {
+      {
         name: 'Takım 2',
         score: 0,
       },
-    },
-    cards: cards,
+    ],
+    cards: cards as Card[],
+    usedCards: [] as number[],
     rules: {
       maxScore: 30,
       timeLimit: 60,
     },
     gameStarted: false,
+    roundStarted: false,
+    roundTeam: 0,
+    roundScore: 0,
   }),
-  getters: {
-  },
   actions: {
     startGame() {
-      if (this.teams.team1.name.trim() === '' || this.teams.team2.name.trim() === '' || this.rules.maxScore.toString().trim() === '' || this.rules.timeLimit.toString().trim() === '') {
+      if (this.teams[0].name.trim() === '' || this.teams[1].name.trim() === '' || this.rules.maxScore.toString().trim() === '' || this.rules.timeLimit.toString().trim() === '') {
         alertify.error('Lütfen tüm alanları doldurunuz.', 2);
         return;
       }
@@ -39,7 +48,13 @@ export const useSinglePlayer = defineStore({
         return;
       }
       console.log('Game started');
+      this.cards = this.cards.sort(() => Math.random() - 0.5);
       this.gameStarted = true;
+    },
+  },
+  getters: {
+    getRemainingCards(): Card[] {
+      return this.cards.filter(card => !this.usedCards.includes(card.id));
     },
   },
   persist: true,

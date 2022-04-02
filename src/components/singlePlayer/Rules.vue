@@ -14,7 +14,7 @@ const { teams, rules } = storeToRefs(store);
                 <div class="col-3">
                     <label for="team1">Takım #1</label>
                     <input
-                        v-model="teams.team1.name"
+                        v-model="teams[0].name"
                         type="text"
                         id="team1"
                         placeholder="Takım 1"
@@ -23,7 +23,7 @@ const { teams, rules } = storeToRefs(store);
                 <div class="col-3">
                     <label for="team2">Takım #2</label>
                     <input
-                        v-model="teams.team2.name"
+                        v-model="teams[1].name"
                         type="text"
                         id="team2"
                         placeholder="Takım 2"
@@ -74,22 +74,6 @@ const { teams, rules } = storeToRefs(store);
     justify-content: center;
     margin-top: 20px;
     margin-left: 100px;
-}
-.row a {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid var(--color-purple);
-    border-radius: 5px;
-    background-color: var(--bg-purple);
-    color: var(--color-bright-purple);
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.4s;
-}
-.row a:hover {
-    background-color: var(--bg-bright-purple);
-    color: var(--color-purple);
 }
 .col-3 {
     width: 45%;
