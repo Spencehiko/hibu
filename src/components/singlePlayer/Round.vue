@@ -1,16 +1,28 @@
 <script setup lang="ts">
+import { watch } from 'vue'
 import { storeToRefs } from 'pinia';
 import { useSinglePlayer } from '@/stores/singlePlayer';
 
 const store = useSinglePlayer();
-const { cards, teams, rules, roundStarted, roundTeam, getRemainingCards, roundScore } = store;
-const { maxScore, timeLimit } = rules;
+const { cards, endRound, nextCard } = store;
+let { roundTime, roundScore } = storeToRefs(store);
+function countDownTimer() {
+    if (roundTime.value > 0) {
+        setTimeout(() => {
+            roundTime.value--;
+            countDownTimer();
+        }, 1000);
+    } else {
+        endRound();
+    }
+}
+countDownTimer();
 </script>
 
 <template>
     <div class="round">
         <div class="round-score">
-            <h1 class="time">120</h1>
+            <h1 class="time">{{ roundTime }}</h1>
             <h1 class="score">{{ roundScore }}</h1>
         </div>
         <div class="card">
@@ -26,9 +38,9 @@ const { maxScore, timeLimit } = rules;
             </h2>
         </div>
         <div class="buttons">
-            <button class="false">HİBU!</button>
-            <button class="pass">PAS</button>
-            <button class="true">DOĞRU</button>
+            <button class="false" @click="nextCard(-1)">✘</button>
+            <button class="pass" @click="nextCard(0)">PAS</button>
+            <button class="true" @click="nextCard(1)">✔</button>
         </div>
     </div>
 </template>
@@ -36,6 +48,9 @@ const { maxScore, timeLimit } = rules;
 .round {
     height: calc(100vh - 60px);
     width: 100vw;
+    width: 50vw;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 .round-score {
     display: flex;
@@ -64,6 +79,57 @@ const { maxScore, timeLimit } = rules;
     border-radius: 50%;
 }
 .card {
-    margin-top: 100px;
+    margin: 50px auto;
+    padding: 0 20px;
+    border: 1px solid var(--color-bright-purple);
+    border-radius: 10px;
+    padding: 20px;
+    background: var(--bg-dark-purple);
+}
+.card .target {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-bright-purple);
+    border-bottom: 1px solid var(--color-bright-purple);
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    min-width: 350px;
+    padding: 0 20px;
+    margin: 50px auto;
+}
+.buttons button {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border: 3px solid var(--color-bright-purple);
+    border-radius: 10px;
+    background: var(--bg-dark-purple);
+    color: var(--color-bright-purple);
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.buttons button.false {
+    border-color: rgba(225, 0, 0, 0.7);
+    color: rgba(225, 0, 0, 0.7);
+}
+.buttons button.false:hover {
+    background-color: rgba(225, 0, 0, 0.7);
+}
+.buttons button.true {
+    border-color: rgba(0, 185, 0, 0.7);
+    color: rgba(0, 185, 0, 0.7);
+}
+.buttons button.true:hover {
+    background: rgba(0, 185, 0, 0.7);
+}
+.buttons button:hover {
+    background: var(--color-bright-purple);
+    color: #fff;
 }
 </style>

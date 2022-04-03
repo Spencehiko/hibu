@@ -32,6 +32,7 @@ export const useSinglePlayer = defineStore({
     roundStarted: false,
     roundTeam: 0,
     roundScore: 0,
+    roundTime: 60 as number,
   }),
   actions: {
     startGame() {
@@ -47,8 +48,8 @@ export const useSinglePlayer = defineStore({
         alertify.error('Süre limiti en az 20 saniye olmalıdır.', 2);
         return;
       }
-      console.log('Game started');
       this.cards = this.cards.sort(() => Math.random() - 0.5);
+      this.roundTime = this.rules.timeLimit;
       this.gameStarted = true;
     },
     endGame() {
@@ -63,6 +64,27 @@ export const useSinglePlayer = defineStore({
       this.teams[1].name = 'Takım 2';
       this.rules.maxScore = 30;
       this.rules.timeLimit = 60;
+    },
+    startRound() {
+      this.roundStarted = true;
+      this.roundScore = 0;
+      this.roundTime = this.rules.timeLimit;
+    },
+    endRound() {
+      this.teams[this.roundTeam].score += this.roundScore;
+      this.roundStarted = false;
+      this.roundTeam = 1 - this.roundTeam;
+      this.roundScore = 0;
+      this.nextCard(0);
+    },
+    nextCard(status: number) {
+      if (status === 1) {
+        this.roundScore++;
+      } else if (status === -1) {
+        this.roundScore--;
+      }
+      this.usedCards.push(this.cards[0].id);
+      this.cards.shift();
     }
   },
   getters: {

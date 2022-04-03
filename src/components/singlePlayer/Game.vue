@@ -4,8 +4,8 @@ import { storeToRefs } from 'pinia';
 import Round from '@/components/singlePlayer/Round.vue';
 
 const store = useSinglePlayer();
-const { teams, roundTeam } = store;
-const { roundStarted } = storeToRefs(store);
+const { startRound } = store;
+const { teams, roundTeam, roundStarted } = storeToRefs(store);
 </script>
 
 <template>
@@ -23,7 +23,7 @@ const { roundStarted } = storeToRefs(store);
                 </div>
             </div>
             <h3>Anlatma Sırası: {{ teams[roundTeam].name }}</h3>
-            <a class="start-round-btn" @click="roundStarted = true"
+            <a class="start-round-btn" @click="startRound"
                 >Turu başlat</a
             >
         </div>
