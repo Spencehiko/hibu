@@ -27,7 +27,7 @@ countDownTimer();
         </div>
         <div class="card">
             <h1 class="target">
-                {{ cards[0].target }}
+                {{ cards[0].target.toLocaleUpperCase('tr') }}
             </h1>
             <h2
                 class="forbidden"
@@ -47,7 +47,6 @@ countDownTimer();
 <style scoped>
 .round {
     height: calc(100vh - 60px);
-    width: 100vw;
     width: 50vw;
     padding: 0 20px;
     margin: 0 auto;
@@ -131,5 +130,14 @@ countDownTimer();
 .buttons button:hover {
     background: var(--color-bright-purple);
     color: #fff;
+}
+@media screen and (max-width: 600px) {
+    .round {
+        width: 95vw;
+    }
+    .buttons {
+        min-width: 0;
+        padding: 0;
+    }
 }
 </style>

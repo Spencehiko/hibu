@@ -2197,5 +2197,1105 @@
             "taş",
             "idrar"
         ]
+    },
+    {
+        "id": 201,
+        "target": "hugh jackman",
+        "forbidden": [
+            "sinema",
+            "oyuncu",
+            "Wolverine",
+            "X-Men",
+            "aktör"
+        ]
+    },
+    {
+        "id": 202,
+        "target": "pusula",
+        "forbidden": [
+            "yön",
+            "kaybolmak",
+            "orman",
+            "kuzey",
+            "batı"
+        ]
+    },
+    {
+        "id": 203,
+        "target": "polemik",
+        "forbidden": [
+            "girmek",
+            "politika",
+            "kavga",
+            "laf dalaşı",
+            "sataşmak"
+        ]
+    },
+    {
+        "id": 204,
+        "target": "kasıntı",
+        "forbidden": [
+            "ukala",
+            "hava atmak",
+            "kibirli",
+            "davranmak",
+            "böbürlenmek"
+        ]
+    },
+    {
+        "id": 205,
+        "target": "çiçek pasajı",
+        "forbidden": [
+            "İstanbul",
+            "Beyoğlu",
+            "Nevizade",
+            "yemek",
+            "içmek"
+        ]
+    },
+    {
+        "id": 206,
+        "target": "maestro",
+        "forbidden": [
+            "orkestra",
+            "yönetmek",
+            "şef",
+            "besteci",
+            "klasik müzik"
+        ]
+    },
+    {
+        "id": 207,
+        "target": "paspal",
+        "forbidden": [
+            "kokoş",
+            "dağınık",
+            "bakımsız",
+            "şık",
+            "giyinmek"
+        ]
+    },
+    {
+        "id": 208,
+        "target": "atari",
+        "forbidden": [
+            "bilgisayar",
+            "oyun",
+            "eski",
+            "basit",
+            "program"
+        ]
+    },
+    {
+        "id": 209,
+        "target": "tezkere",
+        "forbidden": [
+            "askerlik",
+            "bitirmek",
+            "ordu",
+            "kağıt",
+            "belge"
+        ]
+    },
+    {
+        "id": 210,
+        "target": "kromozom",
+        "forbidden": [
+            "X",
+            "Y",
+            "genetik",
+            "DNA",
+            "hücre"
+        ]
+    },
+    {
+        "id": 211,
+        "target": "akıl hocası",
+        "forbidden": [
+            "büyük",
+            "öğretmek",
+            "göstermek",
+            "danışmak",
+            "tavsiye"
+        ]
+    },
+    {
+        "id": 212,
+        "target": "valide",
+        "forbidden": [
+            "anne",
+            "kayın",
+            "sultan",
+            "hanım",
+            "eski"
+        ]
+    },
+    {
+        "id": 213,
+        "target": "kontak",
+        "forbidden": [
+            "kafa",
+            "lens",
+            "anahtar",
+            "araba",
+            "düz"
+        ]
+    },
+    {
+        "id": 214,
+        "target": "anka kuşu",
+        "forbidden": [
+            "hayali",
+            "masal",
+            "efsane",
+            "kül",
+            "Kaf Dağı"
+        ]
+    },
+    {
+        "id": 215,
+        "target": "tombala",
+        "forbidden": [
+            "yılbaşı",
+            "oyun",
+            "çinko",
+            "çekmek",
+            "kart"
+        ]
+    },
+    {
+        "id": 216,
+        "target": "tantana",
+        "forbidden": [
+            "şamata",
+            "gürültü",
+            "olay",
+            "görkemli",
+            "şaşaalı"
+        ]
+    },
+    {
+        "id": 217,
+        "target": "tur bindirmek",
+        "forbidden": [
+            "yarış",
+            "Formula 1",
+            "koşmak",
+            "hızlı",
+            "geçmek"
+        ]
+    },
+    {
+        "id": 218,
+        "target": "turkuaz",
+        "forbidden": [
+            "yeşil",
+            "mavi",
+            "taş",
+            "renk",
+            "deniz"
+        ]
+    },
+    {
+        "id": 219,
+        "target": "davlumbaz",
+        "forbidden": [
+            "mutfak",
+            "ocak",
+            "üst",
+            "koku",
+            "çekmek"
+        ]
+    },
+    {
+        "id": 220,
+        "target": "tespih",
+        "forbidden": [
+            "çekmek",
+            "dua",
+            "yuvarlak",
+            "boncuk",
+            "el"
+        ]
+    },
+    {
+        "id": 221,
+        "target": "kolbastı",
+        "forbidden": [
+            "Trabzon",
+            "Karadeniz",
+            "oyun",
+            "dans",
+            "horon"
+        ]
+    },
+    {
+        "id": 222,
+        "target": "belgrad ormanı",
+        "forbidden": [
+            "İstanbul",
+            "piknik",
+            "koşmak",
+            "bisiklet",
+            "Sarıyer"
+        ]
+    },
+    {
+        "id": 223,
+        "target": "carla bruni",
+        "forbidden": [
+            "manken",
+            "eş",
+            "Cumhurbaşkanı",
+            "Fransa",
+            "Sarkozy"
+        ]
+    },
+    {
+        "id": 224,
+        "target": "çat kapı",
+        "forbidden": [
+            "gelmek",
+            "aniden",
+            "habersiz",
+            "beklemek",
+            "misafir"
+        ]
+    },
+    {
+        "id": 225,
+        "target": "sere serpe",
+        "forbidden": [
+            "güneşlenmek",
+            "yatmak",
+            "rahat",
+            "açık saçık",
+            "serbest"
+        ]
+    },
+    {
+        "id": 226,
+        "target": "suluboya",
+        "forbidden": [
+            "yağlıboya",
+            "resim",
+            "palet",
+            "fırça",
+            "renk"
+        ]
+    },
+    {
+        "id": 227,
+        "target": "bono",
+        "forbidden": [
+            "U2",
+            "solist",
+            "tahvil",
+            "kağıt",
+            "hisse senedi"
+        ]
+    },
+    {
+        "id": 228,
+        "target": "zula",
+        "forbidden": [
+            "saklamak",
+            "gizli",
+            "koymak",
+            "kaçak",
+            "mal"
+        ]
+    },
+    {
+        "id": 229,
+        "target": "çerkeztavuğu",
+        "forbidden": [
+            "yemek",
+            "ceviz",
+            "meze",
+            "didiklemek",
+            "et"
+        ]
+    },
+    {
+        "id": 230,
+        "target": "kornea",
+        "forbidden": [
+            "göz",
+            "iris",
+            "görmek",
+            "parça",
+            "lazer"
+        ]
+    },
+    {
+        "id": 231,
+        "target": "nara atmak",
+        "forbidden": [
+            "bağırmak",
+            "sarhoş",
+            "külhanbeyi",
+            "kabadayı",
+            "haykırmak"
+        ]
+    },
+    {
+        "id": 232,
+        "target": "go-kart",
+        "forbidden": [
+            "küçük",
+            "Formula 1",
+            "çocuk",
+            "yarış",
+            "pist"
+        ]
+    },
+    {
+        "id": 233,
+        "target": "kaymakam",
+        "forbidden": [
+            "vali",
+            "ilçe",
+            "yönetmek",
+            "memur",
+            "belediye"
+        ]
+    },
+    {
+        "id": 234,
+        "target": "tuğra",
+        "forbidden": [
+            "Osmanlı",
+            "imza",
+            "padişah",
+            "sembol",
+            "isim"
+        ]
+    },
+    {
+        "id": 235,
+        "target": "fire vermek",
+        "forbidden": [
+            "eksik",
+            "fazla",
+            "saymak",
+            "ziyan olmak",
+            "kumaş"
+        ]
+    },
+    {
+        "id": 236,
+        "target": "risotto",
+        "forbidden": [
+            "pirinç",
+            "pilav",
+            "İtalyan",
+            "yemek",
+            "lapa"
+        ]
+    },
+    {
+        "id": 237,
+        "target": "piercing",
+        "forbidden": [
+            "delmek",
+            "göbek",
+            "kulak",
+            "küpe",
+            "kaş"
+        ]
+    },
+    {
+        "id": 238,
+        "target": "cate blanchett",
+        "forbidden": [
+            "film",
+            "sinema",
+            "oyuncu",
+            "Avustralya",
+            "Elizabeth"
+        ]
+    },
+    {
+        "id": 239,
+        "target": "aroma",
+        "forbidden": [
+            "tat",
+            "meyve",
+            "koku",
+            "esans",
+            "güzel"
+        ]
+    },
+    {
+        "id": 240,
+        "target": "poliklinik",
+        "forbidden": [
+            "hastane",
+            "doktor",
+            "küçük",
+            "tedavi",
+            "özel"
+        ]
+    },
+    {
+        "id": 241,
+        "target": "murathan mungan",
+        "forbidden": [
+            "edebiyat",
+            "şair",
+            "roman",
+            "yazar",
+            "Kırk Oda"
+        ]
+    },
+    {
+        "id": 242,
+        "target": "kortej",
+        "forbidden": [
+            "tören",
+            "konvoy",
+            "asker",
+            "yürümek",
+            "sıra"
+        ]
+    },
+    {
+        "id": 243,
+        "target": "piyaz",
+        "forbidden": [
+            "salata",
+            "köfte",
+            "kuru fasulye",
+            "haşlamak",
+            "soğan"
+        ]
+    },
+    {
+        "id": 244,
+        "target": "selektör",
+        "forbidden": [
+            "araba",
+            "far",
+            "ışık",
+            "yakmak",
+            "uyarmak"
+        ]
+    },
+    {
+        "id": 245,
+        "target": "sevgililer günü",
+        "forbidden": [
+            "kalp",
+            "aşk",
+            "kutlamak",
+            "hediye",
+            "14 Şubat"
+        ]
+    },
+    {
+        "id": 246,
+        "target": "kardelen",
+        "forbidden": [
+            "çiçek",
+            "dağ",
+            "beyaz",
+            "narin",
+            "açmak"
+        ]
+    },
+    {
+        "id": 247,
+        "target": "yaşar kemal",
+        "forbidden": [
+            "yazar",
+            "edebiyat",
+            "İnce Memed",
+            "Yer Demit Gök Bakır",
+            "Ağrı Dağı Efsanesi"
+        ]
+    },
+    {
+        "id": 248,
+        "target": "dekoder",
+        "forbidden": [
+            "şifre",
+            "uydu",
+            "yayın",
+            "televizyon",
+            "alet"
+        ]
+    },
+    {
+        "id": 249,
+        "target": "beşamel",
+        "forbidden": [
+            "sos",
+            "et",
+            "tavuk",
+            "un",
+            "süt"
+        ]
+    },
+    {
+        "id": 250,
+        "target": "sudoku",
+        "forbidden": [
+            "bulmaca",
+            "sayı",
+            "yerleştirmek",
+            "kare",
+            "matematik"
+        ]
+    },
+    {
+        "id": 251,
+        "target": "unicef",
+        "forbidden": [
+            "Birleşmiş Milletler",
+            "çocuk",
+            "yardım",
+            "kuruluş",
+            "Kızılay"
+        ]
+    },
+    {
+        "id": 252,
+        "target": "yüzeysel",
+        "forbidden": [
+            "derin",
+            "ayrıntılı",
+            "gelişigüzel",
+            "düşünmek",
+            "sığ"
+        ]
+    },
+    {
+        "id": 253,
+        "target": "uzanmak",
+        "forbidden": [
+            "yorgun",
+            "hasta",
+            "yatmak",
+            "televizyon",
+            "dinlenmek"
+        ]
+    },
+    {
+        "id": 254,
+        "target": "taraftar",
+        "forbidden": [
+            "futbol",
+            "takım",
+            "tutmak",
+            "fanatik",
+            "tezahürat"
+        ]
+    },
+    {
+        "id": 255,
+        "target": "hologram",
+        "forbidden": [
+            "görüntü",
+            "lazer",
+            "yansıma",
+            "ışık",
+            "üç boyutlu"
+        ]
+    },
+    {
+        "id": 256,
+        "target": "mevlana",
+        "forbidden": [
+            "tasavvuf",
+            "Konya",
+            "hoşgörü",
+            "semazen",
+            "dönmek"
+        ]
+    },
+    {
+        "id": 257,
+        "target": "orhan gencebay",
+        "forbidden": [
+            "müzisyen",
+            "arabesk",
+            "Ferdi Tayfur",
+            "Müslüm Gürses",
+            "Batsın Bu Dünya"
+        ]
+    },
+    {
+        "id": 258,
+        "target": "maşallah",
+        "forbidden": [
+            "altın",
+            "sünnet",
+            "nazar",
+            "güzel",
+            "beğenmek"
+        ]
+    },
+    {
+        "id": 259,
+        "target": "paskalya",
+        "forbidden": [
+            "bahar",
+            "çörek",
+            "yumurta",
+            "Hristiyan",
+            "bayram"
+        ]
+    },
+    {
+        "id": 260,
+        "target": "alakart mönü",
+        "forbidden": [
+            "açık büfe",
+            "fix mönü",
+            "seçmek",
+            "restoran",
+            "yemek"
+        ]
+    },
+    {
+        "id": 261,
+        "target": "pitbull",
+        "forbidden": [
+            "köpek",
+            "cins",
+            "saldırgan",
+            "çene",
+            "parçalamak"
+        ]
+    },
+    {
+        "id": 262,
+        "target": "imrenmek",
+        "forbidden": [
+            "kıskanmak",
+            "gıpta etmek",
+            "özenmek",
+            "canı çekmek",
+            "istemek"
+        ]
+    },
+    {
+        "id": 263,
+        "target": "deformasyon",
+        "forbidden": [
+            "şekil",
+            "bozulmak",
+            "eskimek",
+            "biçim",
+            "değişmek"
+        ]
+    },
+    {
+        "id": 264,
+        "target": "suikast",
+        "forbidden": [
+            "cinayet",
+            "öldürmek",
+            "tuzak",
+            "ateş etmek",
+            "katil"
+        ]
+    },
+    {
+        "id": 265,
+        "target": "karides",
+        "forbidden": [
+            "deniz",
+            "kabuk",
+            "jumbo",
+            "ıstakoz",
+            "güveç"
+        ]
+    },
+    {
+        "id": 266,
+        "target": "ranza",
+        "forbidden": [
+            "yatak",
+            "iki",
+            "kat",
+            "koğuş",
+            "uyumak"
+        ]
+    },
+    {
+        "id": 267,
+        "target": "kanaviçe",
+        "forbidden": [
+            "elişi",
+            "kasnak",
+            "iplik",
+            "iğne",
+            "bez"
+        ]
+    },
+    {
+        "id": 268,
+        "target": "alaturka",
+        "forbidden": [
+            "alafranga",
+            "tuvalet",
+            "müzik",
+            "eski",
+            "gelenek"
+        ]
+    },
+    {
+        "id": 269,
+        "target": "kağıt helva",
+        "forbidden": [
+            "yiyecek",
+            "tatlı",
+            "yuvarlak",
+            "dondurma",
+            "külah"
+        ]
+    },
+    {
+        "id": 270,
+        "target": "gebe",
+        "forbidden": [
+            "hamile",
+            "kadın",
+            "bebek",
+            "dokuz ay",
+            "karın"
+        ]
+    },
+    {
+        "id": 271,
+        "target": "zımba",
+        "forbidden": [
+            "tutturmak",
+            "kırtasiye",
+            "kağıt",
+            "tel",
+            "delmek"
+        ]
+    },
+    {
+        "id": 272,
+        "target": "maytap",
+        "forbidden": [
+            "ışık",
+            "kıvılcım",
+            "pasta",
+            "doğum günü",
+            "yakmak"
+        ]
+    },
+    {
+        "id": 273,
+        "target": "asabi",
+        "forbidden": [
+            "sinirli",
+            "gergin",
+            "kızmak",
+            "geçimsiz",
+            "öfke"
+        ]
+    },
+    {
+        "id": 274,
+        "target": "laborant",
+        "forbidden": [
+            "çalışmak",
+            "kan",
+            "tahlil",
+            "araştırmak",
+            "hastalık"
+        ]
+    },
+    {
+        "id": 275,
+        "target": "üç maymun",
+        "forbidden": [
+            "Nuri Bilge Ceylan",
+            "film",
+            "duymak",
+            "görmek",
+            "bilmek"
+        ]
+    },
+    {
+        "id": 276,
+        "target": "bruce lee",
+        "forbidden": [
+            "Çin",
+            "kung fu",
+            "sinema",
+            "aktör",
+            "karate"
+        ]
+    },
+    {
+        "id": 277,
+        "target": "saf kan",
+        "forbidden": [
+            "at",
+            "cins",
+            "ırk",
+            "özellik",
+            "karışmak"
+        ]
+    },
+    {
+        "id": 278,
+        "target": "kota",
+        "forbidden": [
+            "doldurmak",
+            "kontenjan",
+            "sınırlama",
+            "kısıtlama",
+            "sayı"
+        ]
+    },
+    {
+        "id": 279,
+        "target": "gına gelmek",
+        "forbidden": [
+            "usanmak",
+            "bıkmak",
+            "sıkılmak",
+            "fazla",
+            "bezmek"
+        ]
+    },
+    {
+        "id": 280,
+        "target": "tırmalamak",
+        "forbidden": [
+            "kedi",
+            "tırnak",
+            "çizmek",
+            "pati",
+            "pençe"
+        ]
+    },
+    {
+        "id": 281,
+        "target": "kulak zarı",
+        "forbidden": [
+            "organ",
+            "duymak",
+            "patlamak",
+            "yüz",
+            "ses"
+        ]
+    },
+    {
+        "id": 282,
+        "target": "efendi",
+        "forbidden": [
+            "bey",
+            "seslenmek",
+            "kibar",
+            "ağırbaşlı",
+            "nazik"
+        ]
+    },
+    {
+        "id": 283,
+        "target": "gala",
+        "forbidden": [
+            "film",
+            "tiyatro",
+            "ilk",
+            "gösterim",
+            "davet"
+        ]
+    },
+    {
+        "id": 284,
+        "target": "şofben",
+        "forbidden": [
+            "kombi",
+            "elektrik",
+            "su",
+            "sıcak",
+            "ısıtmak"
+        ]
+    },
+    {
+        "id": 285,
+        "target": "hımbıl",
+        "forbidden": [
+            "yavaş",
+            "tembel",
+            "uyuşuk",
+            "hareket",
+            "şişman"
+        ]
+    },
+    {
+        "id": 286,
+        "target": "kafadan atmak",
+        "forbidden": [
+            "sallamak",
+            "uydurmak",
+            "bilmek",
+            "yalan",
+            "test"
+        ]
+    },
+    {
+        "id": 287,
+        "target": "hıçkırık",
+        "forbidden": [
+            "ses",
+            "tutmak",
+            "diyafram",
+            "korkutmak",
+            "nefes"
+        ]
+    },
+    {
+        "id": 288,
+        "target": "sapan",
+        "forbidden": [
+            "atmak",
+            "çocuk",
+            "taş",
+            "kuş",
+            "lastik"
+        ]
+    },
+    {
+        "id": 289,
+        "target": "eküri",
+        "forbidden": [
+            "at",
+            "ikili",
+            "arkadaş",
+            "yarış",
+            "ortak"
+        ]
+    },
+    {
+        "id": 290,
+        "target": "eli yatkın",
+        "forbidden": [
+            "becerikli",
+            "hamarat",
+            "iş",
+            "bilmek",
+            "çalışmak"
+        ]
+    },
+    {
+        "id": 291,
+        "target": "parfümeri",
+        "forbidden": [
+            "satmak",
+            "mağaza",
+            "dükkan",
+            "kokmak",
+            "kozmetik"
+        ]
+    },
+    {
+        "id": 292,
+        "target": "dama",
+        "forbidden": [
+            "satranç",
+            "oyun",
+            "taş",
+            "kare",
+            "tavla"
+        ]
+    },
+    {
+        "id": 293,
+        "target": "cinayet",
+        "forbidden": [
+            "öldürmek",
+            "kadın",
+            "katil",
+            "işlemek",
+            "Agatha Christie"
+        ]
+    },
+    {
+        "id": 294,
+        "target": "guinness",
+        "forbidden": [
+            "kitap",
+            "rekor",
+            "kırmak",
+            "en",
+            "yazmak"
+        ]
+    },
+    {
+        "id": 295,
+        "target": "samanyolu",
+        "forbidden": [
+            "yıldız",
+            "gökyüzü",
+            "evren",
+            "galaksi",
+            "şarkı"
+        ]
+    },
+    {
+        "id": 296,
+        "target": "briyantin",
+        "forbidden": [
+            "saç",
+            "sürmek",
+            "parlak",
+            "jöle",
+            "yağlı"
+        ]
+    },
+    {
+        "id": 297,
+        "target": "uzlaşmak",
+        "forbidden": [
+            "anlaşmak",
+            "kavga",
+            "ortak",
+            "barışmak",
+            "buluşmak"
+        ]
+    },
+    {
+        "id": 298,
+        "target": "yalaka",
+        "forbidden": [
+            "dalkavuk",
+            "sırnaşık",
+            "yağ çekmek",
+            "patron",
+            "müdür"
+        ]
+    },
+    {
+        "id": 299,
+        "target": "lir",
+        "forbidden": [
+            "mitoloji",
+            "çalgı",
+            "müzik",
+            "arp",
+            "telli"
+        ]
+    },
+    {
+        "id": 300,
+        "target": "mizaç",
+        "forbidden": [
+            "huy",
+            "değiştirmek",
+            "sert",
+            "karakter",
+            "davranmak"
+        ]
     }
 ]

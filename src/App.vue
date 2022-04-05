@@ -20,7 +20,7 @@ const menuOpen = ref(false)
         </div>
     </header>
     <RouterView class="router-view" :class="{ 'menu-opened': menuOpen }" />
-    <div class="wrapper" v-show="menuOpen">
+    <div class="nav-wrapper" v-show="menuOpen">
         <nav>
             <RouterLink to="/" @click="menuOpen = false">Ana Sayfa</RouterLink>
             <RouterLink to="/single-player" @click="menuOpen = false">Tek Cihaz</RouterLink>
@@ -70,7 +70,7 @@ header {
     color: var(--color-bright-purple);
     margin: 5px 15px;
 }
-.wrapper {
+.nav-wrapper {
     background: var(--bg-dark-purple);
     width: 100%;
     height: calc(100% - 60px);
@@ -79,7 +79,7 @@ header {
     top: 60px;
     left: 0;
 }
-.wrapper nav {
+.nav-wrapper nav {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -88,13 +88,13 @@ header {
     flex-direction: column;
     text-align: center;
 }
-.wrapper nav a {
+.nav-wrapper nav a {
     color: var(--color-bright-purple);
     font-weight: 600;
     font-size: 30px;
     transition: all 0.4s;
 }
-.wrapper nav a:hover {
+.nav-wrapper nav a:hover {
     color: var(--color-purple);
 }
 .toggle-wrapper {

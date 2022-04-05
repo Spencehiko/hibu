@@ -61,10 +61,21 @@ const { teams, rules } = storeToRefs(store);
 
 <style scoped>
 .game-rules {
+    width: 100%;
     height: calc(100% - 20px);
     color: var(--color-bright-purple);
     display: flex;
     place-items: center;
+}
+.wrapper {
+    margin: 50px 20%;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--bg-purple);
+    color: var(--color-yellow);
+    max-height: calc(100% - 160px);
 }
 .row {
     display: flex;
@@ -72,8 +83,7 @@ const { teams, rules } = storeToRefs(store);
     width: 100%;
     padding: 0 150px;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin: 20px auto;
 }
 .col-3 {
     width: 45%;

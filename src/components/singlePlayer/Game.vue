@@ -22,7 +22,7 @@ const { teams, roundTeam, roundStarted } = storeToRefs(store);
                     <div class="team-score">{{ teams[1].score }}</div>
                 </div>
             </div>
-            <h3>Anlatma Sırası: {{ teams[roundTeam].name }}</h3>
+            <h1 class="turn-title">Anlatma Sırası: {{ teams[roundTeam].name }}</h1>
             <a class="start-round-btn" @click="startRound"
                 >Turu başlat</a
             >
@@ -51,7 +51,7 @@ const { teams, roundTeam, roundStarted } = storeToRefs(store);
     min-width: 350px;
     background: var(--bg-dark-purple);
     color: var(--color-bright-purple);
-    padding: 0 20px;
+    padding: 0 40px;
     margin: 20px 0;
 }
 .team-score {
@@ -68,6 +68,9 @@ const { teams, roundTeam, roundStarted } = storeToRefs(store);
 }
 .team-name {
     font-size: 1.5rem;
+}
+.turn-title {
+    font-size: 2.5rem;
 }
 .start-round-btn {
     display: inline-block;
