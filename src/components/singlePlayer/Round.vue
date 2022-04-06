@@ -27,7 +27,7 @@ countDownTimer();
         </div>
         <div class="card">
             <h1 class="target">
-                {{ cards[0].target.toLocaleUpperCase('tr') }}
+                {{ cards[0].target.toLocaleUpperCase("tr") }}
             </h1>
             <h2
                 class="forbidden"
@@ -110,6 +110,7 @@ countDownTimer();
     margin: 0 10px;
     cursor: pointer;
     transition: all 0.4s;
+    -webkit-tap-highlight-color: transparent;
 }
 .buttons button.false {
     border-color: rgba(225, 0, 0, 0.7);
@@ -136,6 +137,16 @@ countDownTimer();
     .buttons {
         min-width: 0;
         padding: 0;
+    }
+    .buttons button:hover {
+        background: transparent !important;
+        color: inherit
+    }
+    .buttons button.true:hover {
+        color: rgba(0, 185, 0, 0.7);
+    }
+    .buttons button.false:hover {
+        color: rgba(225, 0, 0, 0.7);
     }
 }
 </style>

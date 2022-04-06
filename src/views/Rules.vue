@@ -95,7 +95,8 @@ a:hover {
 }
 @media screen and (max-width: 1168px) {
     .rules {
-        margin: 20px;
+        margin: 0;
+        height: calc(100% - 60px);
         width: 100%;
     }
     .rules-cards {

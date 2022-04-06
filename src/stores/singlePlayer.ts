@@ -48,6 +48,7 @@ export const useSinglePlayer = defineStore({
         alertify.error('Süre limiti en az 20 saniye olmalıdır.', 2);
         return;
       }
+      this.cards = cards;
       this.cards = this.cards.sort(() => Math.random() - 0.5);
       this.roundTime = this.rules.timeLimit;
       this.gameStarted = true;

@@ -130,4 +130,16 @@ a:hover {
 .col-3 input:focus {
     outline: none;
 }
+@media screen and (max-width: 1068px) {
+    .game-rules {
+        height: 100%;
+    }
+    .wrapper {
+        margin: 0;
+        max-height: 100%;
+    }
+    .row {
+        padding: 0;
+    }
+}
 </style>
