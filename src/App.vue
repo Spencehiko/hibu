@@ -7,14 +7,25 @@ const menuOpen = ref(false)
 
 <template>
     <header>
-        <h1 class="name">Hibu</h1>
+        <RouterLink to="/" @click="menuOpen = false">
+            <img class="logo" src="@/assets/hibu.svg" alt="Hibu" />
+            <h1 class="name">Hibu</h1>
+        </RouterLink>
         <div class="toggle-wrapper">
-            <button class="toggle-button" v-if="!menuOpen" @click="menuOpen = true">
+            <button
+                class="toggle-button"
+                v-if="!menuOpen"
+                @click="menuOpen = true"
+            >
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
-            <button class="close-button" v-if="menuOpen" @click="menuOpen = false">
+            <button
+                class="close-button"
+                v-if="menuOpen"
+                @click="menuOpen = false"
+            >
                 X
             </button>
         </div>
@@ -23,8 +34,12 @@ const menuOpen = ref(false)
     <div class="nav-wrapper" v-show="menuOpen">
         <nav>
             <RouterLink to="/" @click="menuOpen = false">Ana Sayfa</RouterLink>
-            <RouterLink to="/single-player" @click="menuOpen = false">Tek Cihaz</RouterLink>
-            <RouterLink to="/rules" @click="menuOpen = false">Kurallar</RouterLink>
+            <RouterLink to="/single-player" @click="menuOpen = false"
+                >Tek Cihaz</RouterLink
+            >
+            <RouterLink to="/rules" @click="menuOpen = false"
+                >Kurallar</RouterLink
+            >
         </nav>
     </div>
 </template>
@@ -45,30 +60,24 @@ body {
 }
 a {
     text-decoration: none;
-    padding: 10px;
-    border: 1px solid var(--color-purple);
-    border-radius: 5px;
-    background-color: var(--bg-purple);
-    color: var(--color-bright-purple);
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.4s;
-    text-align: center;
-}
-a:hover {
-    background-color: var(--bg-bright-purple);
-    color: var(--color-purple);
 }
 header {
     width: 100vw;
     height: 60px;
     background-color: var(--bg-purple);
 }
+.logo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 10px 20px;
+}
 .name {
     float: left;
-    color: var(--color-bright-purple);
+    color: var(--color-yellow);
     margin: 5px 15px;
+    font-weight: 700;
+    font-size: 30px;
 }
 .nav-wrapper {
     background: var(--bg-dark-purple);
@@ -95,7 +104,7 @@ header {
     transition: all 0.4s;
 }
 .nav-wrapper nav a:hover {
-    color: var(--color-purple);
+    color: var(--color-yellow);
 }
 .toggle-wrapper {
     position: relative;
@@ -119,12 +128,9 @@ header {
 .toggle-button .bar {
     width: 30px;
     height: 3px;
-    background-color: var(--color-bright-purple);
+    background-color: var(--color-yellow);
     margin: 5px;
     transition: 0.4s;
-}
-.toggle-button:hover .bar {
-    background-color: var(--color-purple);
 }
 .close-button {
     background: transparent;
@@ -141,10 +147,7 @@ header {
     margin: 7.5px 15px;
     font-size: 30px;
     font-weight: 800;
-    color: var(--color-bright-purple);
-}
-.close-button:hover {
-    color: var(--color-purple);
+    color: var(--color-yellow);
 }
 .router-view {
     padding: 20px 0;
@@ -154,6 +157,6 @@ header {
 }
 .router-view.menu-opened {
     pointer-events: none;
-    filter: blur(10px) grayscale(.5);
+    filter: blur(10px) grayscale(0.5);
 }
 </style>

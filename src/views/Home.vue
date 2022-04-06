@@ -16,10 +16,11 @@
 
 <style scoped>
 .home-wrapper {
-    display: table-cell;
     width: 100vw;
-    height: calc(100vh - 60px);
-    vertical-align: middle;
+    height: calc(100% - 60px);
+    color: var(--color-bright-purple);
+    display: flex;
+    place-items: center;
     text-align: center;
 }
 .home {
