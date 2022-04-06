@@ -46,10 +46,8 @@ countDownTimer();
 </template>
 <style scoped>
 .round {
-    height: calc(100vh - 60px);
     width: 50vw;
     padding: 0 20px;
-    margin: 0 auto;
 }
 .round-score {
     display: flex;

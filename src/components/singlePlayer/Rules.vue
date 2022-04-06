@@ -85,6 +85,23 @@ const { teams, rules } = storeToRefs(store);
     justify-content: center;
     margin: 20px auto;
 }
+a {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--color-purple);
+    border-radius: 5px;
+    background-color: var(--bg-purple);
+    color: var(--color-bright-purple);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+a:hover {
+    background-color: var(--bg-bright-purple);
+    color: var(--color-purple);
+}
 .col-3 {
     width: 45%;
     display: flex;

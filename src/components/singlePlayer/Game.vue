@@ -27,9 +27,7 @@ const { teams, roundTeam, roundStarted } = storeToRefs(store);
                 >Turu başlat</a
             >
         </div>
-        <div v-else>
-            <Round />
-        </div>
+        <Round v-else />
     </div>
 </template>
 
@@ -74,6 +72,20 @@ const { teams, roundTeam, roundStarted } = storeToRefs(store);
 }
 .start-round-btn {
     display: inline-block;
-    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--color-purple);
+    border-radius: 5px;
+    background-color: var(--bg-purple);
+    color: var(--color-bright-purple);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.start-round-btn:hover {
+    background-color: var(--bg-bright-purple);
+    color: var(--color-purple);
 }
 </style>
