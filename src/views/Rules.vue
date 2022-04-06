@@ -78,6 +78,7 @@
     width: 150px;
 }
 a {
+    display: inline-block;
     padding: 10px;
     border: 1px solid var(--color-purple);
     border-radius: 5px;
@@ -98,6 +99,7 @@ a:hover {
         margin: 0;
         height: calc(100% - 60px);
         width: 100%;
+        padding-bottom: 100px;
     }
     .rules-cards {
         flex-direction: column;
