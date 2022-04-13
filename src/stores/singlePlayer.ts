@@ -33,6 +33,7 @@ export const useSinglePlayer = defineStore({
     roundTeam: 0,
     roundScore: 0,
     roundTime: 60 as number,
+    gameWinner: -1,
   }),
   actions: {
     startGame() {
@@ -65,6 +66,7 @@ export const useSinglePlayer = defineStore({
       this.teams[1].name = 'Takım 2';
       this.rules.maxScore = 30;
       this.rules.timeLimit = 60;
+      this.gameWinner = -1;
     },
     startRound() {
       this.roundStarted = true;
@@ -73,6 +75,10 @@ export const useSinglePlayer = defineStore({
     },
     endRound() {
       this.teams[this.roundTeam].score += this.roundScore;
+      if(this.teams[this.roundTeam].score >= this.rules.maxScore) {
+        alertify.success('Oyun bitti. Kazanan takım: ' + this.teams[this.roundTeam].name, 2);
+        this.gameWinner = this.roundTeam;
+      } 
       this.roundStarted = false;
       this.roundTeam = 1 - this.roundTeam;
       this.roundScore = 0;
