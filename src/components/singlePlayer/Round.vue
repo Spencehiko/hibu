@@ -4,8 +4,8 @@ import { storeToRefs } from 'pinia';
 import { useSinglePlayer } from '@/stores/singlePlayer';
 
 const store = useSinglePlayer();
-const { cards, endRound, nextCard } = store;
-let { roundTime, roundScore } = storeToRefs(store);
+const { endRound, nextCard } = store;
+let { roundTime, roundScore, cards } = storeToRefs(store);
 function countDownTimer() {
     if (roundTime.value > 0) {
         setTimeout(() => {

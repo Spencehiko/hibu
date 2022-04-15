@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import cards from '@/datas/cards.json';
+import cardsData from '@/datas/cards.json';
 import alertify from 'alertifyjs';
 
 interface Card {
@@ -22,7 +22,7 @@ export const useSinglePlayer = defineStore({
         score: 0,
       },
     ],
-    cards: cards as Card[],
+    cards: [...cardsData] as Card[],
     usedCards: [] as number[],
     rules: {
       maxScore: 30,
@@ -49,7 +49,7 @@ export const useSinglePlayer = defineStore({
         alertify.error('Süre limiti en az 20 saniye olmalıdır.', 2);
         return;
       }
-      this.cards = cards;
+      this.cards = [...cardsData];
       this.cards = this.cards.sort(() => Math.random() - 0.5);
       this.roundTime = this.rules.timeLimit;
       this.gameStarted = true;
@@ -90,8 +90,13 @@ export const useSinglePlayer = defineStore({
       } else if (status === -1) {
         this.roundScore--;
       }
-      this.usedCards.push(this.cards[0].id);
-      this.cards.shift();
+      if(this.cards.length === 1) {
+        this.cards = [...cardsData];
+        this.usedCards = [];
+      } else {
+        this.usedCards.push(this.cards[0].id);
+        this.cards.shift(); 
+      }    
     }
   },
   getters: {
